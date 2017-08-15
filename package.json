@@ -1,0 +1,32 @@
+{
+  "name": "gulp-bundler-boilerplate",
+  "version": "1.0.0",
+  "description": "This gulפ based bundler will bundle and minify your js and css, as well as compile TypeScript, SASS/LESS, and watch for changes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "gulp default"
+  },
+  "author": "Eran Bodokh",
+  "keywords": [
+    "Gulp",
+    "Bundler",
+    "Vendor",
+    "SASS",
+    "LESS",
+    "TypeScript"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-bundle-assets": "^2.28.0",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^3.3.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-typescript": "^3.2.1",
+    "gulp-watch": "^4.3.11",
+    "lazypipe": "^1.0.1",
+    "typescript": "^2.4.2"
+  }
+}
